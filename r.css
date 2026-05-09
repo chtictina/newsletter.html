@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="" href="style1.css"/>
+    <title>CSS style playground</title>
+</head>
+
+<body>
+  
+
+<div id="box1">
+    
+    <p>
+        <strong>Oceans</strong><br>
+        Sometimes I wonder what it would be like to live by the ocean, waking up to the sound of waves every morning.
+        The calm breeze, the smell of salt in the air, and the peaceful atmosphere feel like the perfect escape from a busy life.
+        It’s the kind of place where time slows down and worries disappear.
+    </p>
+</div>
+
+<div id="box2">
+    <strong>Nature</strong><br>
+    <p>
+        Nature has a unique way of bringing peace to the mind. 
+        The sound of birds, the movement of trees in the wind, and the beauty of green landscapes can instantly make someone feel relaxed. 
+        Spending time in nature helps people disconnect from stress and reconnect with themselves.
+    </p>
+</div>
+
+<div id="box3">
+    <strong>Reading books </strong><br>
+    <p>
+        Reading books is one of my favorite hobbies because it allows me to explore different worlds and ideas. 
+        I enjoy getting lost in stories, learning new things, and imagining different perspectives. 
+        It is a relaxing activity that helps me grow and keeps my mind active.
+    </p>
+</div>
+
+</body>
+</html>
