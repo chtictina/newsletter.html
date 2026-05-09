@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
        <link rel="stylesheet" href="newsleter.css">
     <meta charset="UTF-8">
   
-    <title>Newsletter Signup</title>
+    <title>SheNewsLetter Signup</title>
 </head>
 <body>
 
     <!-- STRUCTURE: Header -->
     <header>
-        <h1>LakinTech Newsletter</h1>
+        <h1>SheNewsletter</h1>
         <nav>
+
             <a href="#">Home</a>
             <a href="#">Articles</a>
            <a href="#">Contact Us</a>
@@ -21,7 +23,7 @@
 
     <main>
       <section>
-       <h2>Signup for our Weekly Updates</h2>
+       <h2>Signup</h2>
 
        <form action="#" method="post">
                 
@@ -30,53 +32,50 @@
         <label for="name">Full Name:</label>
         <input type="text" id="name" name="name" required>
        </div>
+<br>
 
                 <!-- Email: Email -->
   <div>
     <label for="email">Email Address:</label>
     <input type="email" id="email" name="email" required>
   </div>
+<br>
 
                 <!-- Age: Number -->
   <div>
    <label for="age">Age:</label>
    <input type="number" id="age" name="age">
   </div>
+<br>
 
                 <!-- How did you hear?: Select -->
                 <div>
-       <label for="source">How did you hear about us?</label>
-     <select id="source" name="source">
+     <label for="source">How did you hear about us?</label>
+     <select id="select" name="select"></select>
      <option value="social-media">Social Media</option>
      <option value="friend">From a Friend</option>
-     <option value="advert">Ads</option>
      <option value="other">Other</option>
       </select>
     </div>
+<br>
 
                 <!-- Interests: Checkboxes -->
                 <div>
-   <label>Interests (Select all that apply):</label>
-      <input type="checkbox" id="interest1" name="interests" value="ai">
-                    <label for="interest1" style="display:inline; font-weight:normal;">AI News</label><br>
-                    
-                    <input type="checkbox" id="interest2" name="interests" value="webdev">
-                    <label for="interest2" style="display:inline; font-weight:normal;">Web Development</label><br>
-                    
-                    <input type="checkbox" id="interest3" name="interests" value="startups">
-                    <label for="interest3" style="display:inline; font-weight:normal;">Startups</label>
-                </div>
+   <div>
+            <label for="select" >Interestes:</label><br>
+            <input type="checkbox" name="Interestes" value="Tech">Tech<br>
+            <input type="checkbox" name="Interestes" value="buisness">Buisness<br>
+            <input type="checkbox" name="Interestes" value="entertainment">Entertainment<br>
+          </div>
 
                 <!-- Frequency: Radio -->
                 <div>
-                    <label>Subscription Frequency:</label>
-                    <input type="radio" id="daily" name="frequency" value="daily">
-                    <label for="daily" style="display:inline; font-weight:normal;">Daily</label>
+            <lable for="select">Frequency:</lable><br>
+            <input type="radio" name="Frequency" value="daily" required >Daily<br>
+            <input type="radio" name="Frequency" value="weekly">Weekly<br>
+            <input type="radio" name="Frequency" value="monthly">Monthly<br>
                     
-                    <input type="radio" id="weekly" name="frequency" value="weekly" checked>
-                    <label for="weekly" style="display:inline; font-weight:normal;">Weekly</label>
-                </div>
-
+<br>
                 <!-- Comments: Textarea -->
                 <div>
                     <label for="comments">Any suggestions or comments?</label>
@@ -104,17 +103,17 @@
                 <tbody>
                     <tr>
                         <td>AI News</td>
-                        <td>12</td>
+                        <td>31</td>
                         <td>Monday</td>
                     </tr>
                     <tr>
                         <td>Web Dev</td>
-                        <td>8</td>
-                        <td>Wednesday</td>
+                        <td>4</td>
+                        <td>Thrusday</td>
                     </tr>
                     <tr>
                         <td>Startups</td>
-                        <td>5</td>
+                        <td>7</td>
                         <td>Friday</td>
                     </tr>
                 </tbody>
@@ -124,7 +123,7 @@
 
     <!-- STRUCTURE: Footer -->
     <footer>
-        <p>&copy; 2026 LakinTech Media. All rights reserved.</p>
+        <p>&copy; 2026 SheNewsLetter. All rights reserved.</p>
     </footer>
 
 </body>
